@@ -1,0 +1,127 @@
+ body {
+     background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+ }
+
+ .container {
+     margin: 0 auto;
+     width: 40%;
+ }
+
+ header {
+     margin-top: 60px;
+     margin-bottom: 40px;
+     height: 60px;
+     font-size: 5em;
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: lighter;
+     color: #FAFAFA;
+     text-shadow: 3px 3px 3px #424242;
+ }
+
+ .task {
+     background: #FFF;
+     height: 50px;
+     padding: 10px;
+     margin-bottom: 2px;
+     border: 1px solid #E0E0E0;
+     box-shadow: 2px 1px 2px #424242;
+ }
+ /* Checkbox design */
+
+ .round {
+     position: relative;
+     width: 1.4em;
+     height: 1.4em;
+     background-color: #FFF;
+     border-radius: 50%;
+     border: 1px solid #757575;
+     -webkit-appearance: none;
+     outline: none;
+     cursor: pointer;
+ }
+
+ .round:checked {
+     background-color: #66BB6A;
+ }
+
+ input[type=checkbox]:checked+input.text-input {
+     text-decoration: line-through;
+     color: #9E9E9E;
+ }
+
+ .text-input {
+     border: none;
+     width: 85%;
+     font-size: 2em;
+     color: #757575;
+     font-family: Helvetica, sans-serif;
+     font-weight: lighter;
+     outline: none;
+     position: relative;
+     left: 10px;
+     margin: 5px;
+ }
+
+ input[type="text"]::placeholder {
+     color: #E0E0E0;
+ }
+
+ footer {
+     background: #FFF;
+     height: 30px;
+     padding: 10px;
+     margin-top: 4px;
+     margin-bottom: 20px;
+     color: #757575;
+     box-shadow: 2px 2px 2px #424242;
+ }
+
+ .add-button {
+     color: #FFF;
+     background: #66BB6A;
+     border: none;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1.2em;
+     float: left;
+ }
+
+ .remove-button {
+     color: #FFF;
+     background: #F44336;
+     border: none;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1.4em;
+     padding: 2px 8px;
+     margin-top: 10px;
+     float: right;
+     position: relative;
+ }
+
+ .filter-button {
+     color: #757575;
+     background: #FFF;
+     border: none;
+     text-align: center;
+     text-decoration: none;
+     font-size: 0.9em;
+     padding-top: 5px;
+     margin: 0 10px;
+ }
+
+ .filter-button:active {
+     border: 1px solid #E0E0E0;
+ }
+
+ button:focus {
+     outline: 0;
+ }
+
+ .count-box {
+     display: block;
+     padding-top: 5px;
+     margin: 0 50px 0 10px;
+     float: left;
+ }
