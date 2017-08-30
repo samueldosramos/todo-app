@@ -8,6 +8,6 @@ A simple todo app for produtive minds.
 
 ## To fix:
 - [ ]  Fix remove task;
-- [ ]  filters;
+- [ ]  Fix filters;
 - [ ]  Add medias queries;
 
