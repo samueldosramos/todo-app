@@ -9,4 +9,6 @@ A simple todo app for produtive minds.
 - [ ]  Fix remove task;
 - [ ]  Fix filters;
 - [ ]  Add medias queries;
+- [ ]  Fix localStorage;
+
 
